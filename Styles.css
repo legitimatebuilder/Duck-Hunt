@@ -1,0 +1,19 @@
+body {
+    background-image: url(./Images/duckhunt-bg-4k.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    cursor: url(./Images/target.png), auto;
+}
+
+@font-face {
+    font-family: gameFont;
+    src: url(./game-font.otf);
+}
+
+#score {
+    font-size: 30px;
+    font-family: gameFont;
+    color: #fff;
+}
